@@ -1,0 +1,52 @@
+@import url(./fonts.css);
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+header {
+    background: url(./img/background.jpg);
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header .navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+header .navigation .b{
+    font-weight: 150;
+    font-size: 10px;
+    color: rgb(55, 44, 24);
+
+}
+header .navigation .c{
+    font-weight: 150;
+    font-size: 10px;
+    color: rgb(80, 69, 48);
+}
+header .navigation .logo{
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: rgb(73, 62, 41);
+}
+
+header .text{
+    color: rgb(130, 114, 83);
+    position:relative;
+    padding: 10px;
+    font-size: 100%;
+}
+.photo .photo-img{
+    padding: 45px;
+}
+.soap .soap-img{
+    padding: 15px;  
+}
